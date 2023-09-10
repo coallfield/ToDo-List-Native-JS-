@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <select class="language">
+            <option value="rus">RU</option>
+            <option value="eng">ENG</option>
+        </select>
+        <div class="title">
+            <h1 data-text class="name-title">Задачник</h1>
+        </div>
+        <div class="form-wrappers">
+            <form>
+                <input data-text class="input" id="title" type="text" placeholder="Придумайте название вашей задаче">
+                <input data-text class="input" id="body" type="text" placeholder="Распишите суть вашей задачи">
+                <input class="input" id="date" type="datetime-local" placeholder="Выберите дедлайн">
+                <button id="create-task" data-text class="task-btn"> Создать задачу </button>
+            </form>
+        </div>
+        
+       
+        
+    </header>
+    <main>
+        
+        <div class="wrapper">
+           
+        </div>
+        
+
+    </main>
+
+    <footer>
+ 
+        <div class="show-butns">
+            <button data-text id="suc" class="show">Выполненные</button>
+            <button data-text id="all" class="show">Все задачи</button>
+            <button data-text id="not-suc" class="show">Невыполненные</button>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
