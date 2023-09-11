@@ -233,7 +233,7 @@ sortButtonsWrapper.addEventListener('click', (event) => {
 
 taskButton.addEventListener('click', (event) => {
     event.preventDefault()
-    if(taskInfoBlock.title === '' ||  taskInfoBlock.body  === '' || taskInfoBlock.date  === '') {
+    if(taskInfoBlock.title.trim() === '' ||  taskInfoBlock.body.trim()  === '' || taskInfoBlock.date.trim()  === '') {
         if(!form.lastElementChild.classList.contains('attention')) {
             const attention = document.createElement('div') 
 
